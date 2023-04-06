@@ -51,11 +51,11 @@ fun exercise4(weight: Int) {
             println("Sua categoria é Pena e falta leve para você subir de categoria")
         }
 
-        weight < 61 && weight > 57 -> {
+        weight in 58..60 -> {
             println("Sua categoria é Leve e falta leve para você subir de categoria")
         }
 
-        weight < 73 && weight > 61 -> {
+        weight in 62..72 -> {
             println("Sua categoria é Medio e falta leve para você subir de categoria")
         }
 
@@ -69,5 +69,5 @@ fun main(args: Array<String>) {
     println(exercise1(15, 10))
     println(exercise2(10, 10))
     println(exercise3(8))
-    println(exercise4(40))
+    println(exercise4(300))
 }
