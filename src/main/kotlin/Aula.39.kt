@@ -1,13 +1,8 @@
-/* Crie uma função que recebe dois valores inteiros e imprima o maior deles. Considere
+/*Crie uma função que recebe dois valores inteiros e imprima o maior deles. Considere
 que não serão informados dois valores iguais.*/
 
 fun exercise1(a: Int, b: Int) {
-    if (a > b) {
-        println("o maior numero é $a")
-    } else {
-        println("o maior numero é $b")
-    }
-
+    if (a > b) println("o maior numero é $a") else println("o maior numero é $b")
 }
 
 /* Faça uma alteração na função do exercício acima e considere que pode haver dois
@@ -37,7 +32,7 @@ fun exercise3(pineapple: Int) {
     }
 }
 
-/*Lutadores de boxe são classificados em categorias de acordo com o peso. Escreva um
+/*  Lutadores de boxe são classificados em categorias de acordo com o peso. Escreva um
 programa usando o comando when que receba a descrição da categoria e informe o
 intervalo de peso usando println.
 Pena: menos de 57 kg
@@ -54,6 +49,8 @@ fun exercise4(weight: Int) {
         weight in 58..60 -> {
             println("Sua categoria é Leve e falta leve para você subir de categoria")
         }
+
+
 
         weight in 62..72 -> {
             println("Sua categoria é Medio e falta leve para você subir de categoria")
